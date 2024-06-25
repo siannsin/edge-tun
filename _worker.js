@@ -120,7 +120,7 @@ export default {
 							subconfig = 'https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini';
 						} else {
 							sub = 'vless-4ca.pages.dev';
-							subconfig = "https://raw.githubusercontent.com/siannsin/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Edge.ini";
+							subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini";
 						}
 					} 
 					const vlessConfig = await getVLESSConfig(userID, request.headers.get('Host'), sub, UA, RproxyIP, url);
